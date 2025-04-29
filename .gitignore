@@ -172,3 +172,28 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+# Ignore virtual environments
+.env/
+.venv/
+
+# Ignore backup and output folders/files
+Backup/
+*.json
+*.csv
+
+# Ignore temporary directories
+tmp/
+temp/
+*.tmp
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore any AWS config or credential file accidentally placed
+.aws/
+*.aws
+
+# Ignore temporary clone of git repos
+gitops-tmp/
